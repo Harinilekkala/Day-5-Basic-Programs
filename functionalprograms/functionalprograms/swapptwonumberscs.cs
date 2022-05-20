@@ -8,7 +8,7 @@ namespace functionalprograms
 {
     internal class swapptwonumberscs
     {
-        public static void swap()
+        public  void swap()
         {
             int a = 5, b = 10;
             Console.WriteLine("Before swap a= " + a + " b= " + b);

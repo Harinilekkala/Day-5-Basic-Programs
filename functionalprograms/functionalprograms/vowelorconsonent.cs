@@ -8,7 +8,7 @@ namespace functionalprograms
 {
     internal class vowelorconsonent
     {
-        public static void vowel()
+        public  void vowel()
         {
             char ch;
             Console.Write("\n\n");

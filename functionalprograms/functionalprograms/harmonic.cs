@@ -26,7 +26,7 @@ namespace functionalprograms
         }
 
         // Driver Code
-        static public void Main()
+         public void Main()
         {
             int N = 8;
 

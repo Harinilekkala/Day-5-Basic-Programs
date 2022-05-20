@@ -8,13 +8,8 @@ namespace functionalprograms
 {
     internal class flipcoin
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Let's flip a coin 50 times");
-            Coinflip();
-        }
-
-        private static int Coinflip()
+       public void Coinflip()
+        
         {
             Random Rand = new Random();
             int heads = 0;
@@ -44,7 +39,7 @@ namespace functionalprograms
             Console.WriteLine("tails was flipped  {0} times", tails);
             Console.WriteLine("Heads Percentage : " + (headspercentage));
             Console.WriteLine("Tails Percentage :" + (tailspercentage));
-            return result;
+            Console.WriteLine(result);
         }
 
     }

@@ -8,7 +8,7 @@ namespace functionalprograms
 {
     internal class primefactor
     {
-        static void Main(string[] args)
+        public void pfactor()
         {
             int a, b;
             Console.WriteLine("Please enter your integer: ");

@@ -8,7 +8,7 @@ namespace functionalprograms
 {
     internal class largestnumber
     {
-        public static void largest()
+        public  void largest()
         {
             int num1, num2, num3;
             Console.Write("\n\n");

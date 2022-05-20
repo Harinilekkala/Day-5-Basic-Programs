@@ -8,7 +8,7 @@ namespace functionalprograms
 {
     internal class quotientandremainder
     {
-        public static void Main(string[] args)
+        public  void Main()
         {
 
             int dividend = 50, divisor = 8;
